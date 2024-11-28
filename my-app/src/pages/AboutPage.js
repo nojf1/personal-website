@@ -44,16 +44,7 @@ const AboutPage = () => {
               learn more.
             </p>
             <p className="mt-6 text-base md:text-lg lg:text-2xl">
-              When I'm not coding, you can find me playing Valorant just to get
-              a red carpet and lose 26rr consecutively until I rank down and
-              back up again to Plat 1, or at having an existential crisis at
-              2am. I also enjoy suffering depression and imposter syndrome, so
-              if you would like to talk about that, feel free to reach out to me
-              so I can info dump you information about why life is worth and not
-              worth living.
-            </p>
-            <p className="mt-6 text-base md:text-lg lg:text-2xl">
-              Literally the only thing worth living for is cats btw.
+              When I'm not coding, you can find me taking photos of cats.
             </p>
             <a
               href="/portfolio"

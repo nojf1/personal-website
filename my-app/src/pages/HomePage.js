@@ -13,7 +13,7 @@ const HomePage = () => {
             Showcasing my work, skills, and passion for design and development.
           </p>
           <a
-            href="/portfolio"
+            href="https://github.com/nojf1"
             className="mt-8 inline-block bg-blue-600 text-white text-base md:text-lg font-semibold py-3 px-6 rounded-lg shadow hover:bg-blue-700 transition-all"
           >
             View My Work
