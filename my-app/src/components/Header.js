@@ -16,7 +16,7 @@ const Header = () => {
         {/* Navigation */}
         <nav className="hidden md:flex space-x-6">
           <Link
-            to="/"
+            to="/personal-website"
             className="text-sm md:text-base lg:text-2xl font-medium hover:text-gray-200 transition-colors"
           >
             Home

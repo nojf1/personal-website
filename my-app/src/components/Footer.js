@@ -15,7 +15,7 @@ function Footer() {
           <ul className="flex justify-center space-x-6">
             <li>
               <a
-                href="/"
+                href="/personal-website"
                 className="text-xs md:text-sm lg:text-base font-medium hover:text-gray-200 transition-colors"
               >
                 Home

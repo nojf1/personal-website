@@ -14,7 +14,7 @@ function App() {
         <Header />
         <main className="flex-grow">
           <Routes>
-            <Route exact path="/" element={<HomePage />} />
+            <Route exact path="/personal-website" element={<HomePage />} />
             <Route path="/about" element={<AboutPage />} />
             <Route path="/contact" element={<ContactPage />} />
             <Route path="*" element={<h1>Page not found</h1>} />
