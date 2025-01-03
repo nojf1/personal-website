@@ -6,7 +6,7 @@ function Footer() {
     <footer className="bg-gradient-to-r from-gray-500 to-gray-700 text-white py-8">
       <div className="container mx-auto text-center">
         {/* Footer Text */}
-        <p className="text-sm md:text-base lg:text-lg font-medium">
+        <p className="text-base md:text-2xl lg:text-3xl font-medium">
           &copy; {new Date().getFullYear()} Nicole.OJF
         </p>
 
@@ -16,7 +16,7 @@ function Footer() {
             <li>
               <a
                 href="/personal-website"
-                className="text-xs md:text-sm lg:text-base font-medium hover:text-gray-200 transition-colors"
+                className="text-base md:text-xl lg:text-2xl font-medium hover:text-gray-200 transition-colors"
               >
                 Home
               </a>
@@ -24,7 +24,7 @@ function Footer() {
             <li>
               <a
                 href="/about"
-                className="text-xs md:text-sm lg:text-base font-medium hover:text-gray-200 transition-colors"
+                className="text-base md:text-xl lg:text-2xl font-medium hover:text-gray-200 transition-colors"
               >
                 About
               </a>
@@ -32,7 +32,7 @@ function Footer() {
             <li>
               <a
                 href="/contact"
-                className="text-xs md:text-sm lg:text-base font-medium hover:text-gray-200 transition-colors"
+                className="text-base md:text-xl lg:text-2xl font-medium hover:text-gray-200 transition-colors"
               >
                 Contact
               </a>

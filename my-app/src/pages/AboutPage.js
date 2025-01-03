@@ -1,4 +1,5 @@
 import React from "react";
+import img2704 from "../images/IMG_2704.jpg";
 
 const AboutPage = () => {
   return (
@@ -21,7 +22,7 @@ const AboutPage = () => {
         <div className="container mx-auto flex flex-col md:flex-row items-center space-y-10 md:space-y-0 md:space-x-12">
           <div className="flex-1">
             <img
-              src="https://via.placeholder.com/400"
+              src={img2704}
               alt="About me"
               className="rounded-lg shadow-lg w-full max-w-md mx-auto md:max-w-none"
             />
@@ -30,20 +31,20 @@ const AboutPage = () => {
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold">
               Hello, I'm Nicole
             </h2>
-            <p className="mt-6 text-base md:text-lg lg:text-2xl">
+            <p className="mt-6 text-lg md:text-lg lg:text-2xl">
               I'm currently pursuing a degree in Software Engineering at Wawasan
               Open University. My journey in the world of technology started at
               a young age, and my passion for coding and problem-solving has
               only grown since then. I enjoy working on projects that challenge
               me to learn new skills and apply my knowledge in innovative ways.
             </p>
-            <p className="mt-6 text-base md:text-lg lg:text-2xl">
+            <p className="mt-6 text-lg md:text-lg lg:text-2xl">
               My areas of interest include web development, application
               development, and artificial intelligence. I am proficient in
               languages such as JavaScript and Java, and I am always eager to
               learn more.
             </p>
-            <p className="mt-6 text-base md:text-lg lg:text-2xl">
+            <p className="mt-6 text-lg md:text-lg lg:text-2xl">
               When I'm not coding, you can find me taking photos of cats.
             </p>
             <a

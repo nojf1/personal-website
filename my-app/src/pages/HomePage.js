@@ -1,4 +1,5 @@
 import React from "react";
+import img2704 from "../images/IMG_2704.jpg";
 
 const HomePage = () => {
   return (
@@ -28,7 +29,7 @@ const HomePage = () => {
         <div className="container mx-auto flex flex-col md:flex-row items-center space-y-8 md:space-y-0 md:space-x-12">
           <div className="flex-1">
             <img
-              src="https://via.placeholder.com/400"
+              src={img2704}
               alt="About me"
               className="rounded-lg shadow-lg"
             />
@@ -113,12 +114,12 @@ const HomePage = () => {
                 alt="Project 3"
                 className="rounded-lg"
               /> */}
-              <h3 className="text-3xl font-bold mt-4">Battleship Java</h3>
+              <h3 className="text-3xl font-bold mt-4">Used Car Sales Portal</h3>
               <p className="mt-2 text-xl">
-                A simple battleship game made with Java, runs on console.
+                A simple used car sales portal built with React and Nodejs.
               </p>
               <a
-                href="https://github.com/nojf1/battleship"
+                href="https://github.com/nojf1/dse20503"
                 rel="noreferrer noopener"
                 target="_blank"
                 className="mt-6 inline-block bg-gray-800 text-white text-base md:text-lg font-semibold py-2 px-4 rounded-lg hover:bg-gray-900 transition-all"
